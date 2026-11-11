@@ -1,0 +1,8 @@
+[package]
+name = "theme_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mlua = { version = "0.9", features = ["lua54", "vendored"] }
+dirs = "5.0"

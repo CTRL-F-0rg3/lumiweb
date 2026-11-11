@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LumiWeb
+GenericName=Web Browser
+Comment=Przeglądarka przez szkło
+Comment[en]=Browser through glass
+Exec=@INSTALL_PREFIX@/bin/lumiweb-launcher %U
+TryExec=lumiweb-launcher
+Icon=lumiweb
+Terminal=false
+Categories=Network;WebBrowser;GTK;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/mailto;application/xhtml+xml;
+StartupNotify=true
+StartupWMClass=lumiweb
+Keywords=browser;web;internet;przeglądarka;

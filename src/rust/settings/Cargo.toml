@@ -1,0 +1,10 @@
+[package]
+name = "lumiweb-settings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dirs = "7.0.0"
+eframe = "0.27"
+egui = "0.27"
+roxmltree = "0.19" # Do czytania XML

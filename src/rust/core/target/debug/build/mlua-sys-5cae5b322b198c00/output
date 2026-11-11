@@ -1,0 +1,5 @@
+cargo:rerun-if-changed=build
+cargo:rustc-link-search=native=/home/ctrl/project/lumiweb/src/rust/core/target/debug/build/mlua-sys-5cae5b322b198c00/out/lua-build/lib
+cargo:rustc-link-lib=static=lua5.4
+cargo:include=/home/ctrl/project/lumiweb/src/rust/core/target/debug/build/mlua-sys-5cae5b322b198c00/out/lua-build/include
+cargo:lib=/home/ctrl/project/lumiweb/src/rust/core/target/debug/build/mlua-sys-5cae5b322b198c00/out/lua-build/lib
